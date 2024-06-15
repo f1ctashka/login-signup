@@ -1,0 +1,201 @@
+.menu-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 16px 24px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    background-color: #ffffff;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-item.active {
+    font-weight: bold;
+    color: #045013;
+}
+
+.page-content {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border: none;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #045013;
+    font-weight: bold;
+}
+
+td {
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.status-button {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.add-drone-button {
+    background-color: #045013;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.add-drone-button:hover {
+    background-color: #02300d;
+}
+
+.info-drone-button {
+    background-color: #045013;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.info-drone-button:hover {
+    background-color: #02300d;
+}
+
+.edit-drone-button {
+    background-color: #045013;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 120px;
+}
+
+.edit-drone-button:hover {
+    background-color: #02300d;
+}
+
+
+.delete-drone-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 120px;
+}
+
+.delete-drone-button:hover {
+    background-color: #da190b;
+}
+
+.sort-options {
+    margin-bottom: 20px;
+}
+
+.sort-options label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.sort-options select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.sort-options select:hover {
+    border-color: #045013;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.search-info {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.map-info {
+    padding-top: 80px;
+    flex: 2;
+}
